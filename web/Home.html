@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="http://www.maxval-drawings.com/js/jquery-2.1.3.min.js"></script>
+        <link href="http://www.maxval-drawings.com/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://www.maxval-drawings.com/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <script src="http://www.maxval-drawings.com/js/bootstrap.min.js"></script>
+
+        <title>Maxval - OPS xml Parser</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="MainServlet">
+            <div class="col-md-8 col-md-offset-2 mt-40">
+                <h1>Maxval XML Parser - OPS Web Service</h1>
+                <div class="col-md-12">
+                    <p>Enter a Patent / Publication Number<span class="text-danger">*</span></p>
+                    <input type="text" name="PatPubNumber" value="" class="form-control input-md">
+                </div>
+                <div class="col-md-12">
+                    <input type="submit"  value="Biblio" name="biblio"  class="btn btn-coffee btn-medium" >
+                    <input type="submit" style="margin-right:10px" value="Claims" name="claims" class="btn btn-coffee btn-medium" >
+                    <input type="submit" style="margin-right:10px" value="Document" name="pdf" class="btn btn-coffee btn-medium" >
+                    <input type="submit" style="margin-right:10px" value="Family Members" name="family" class="btn btn-coffee btn-medium" >
+                    <input type="submit" style="margin-right:10px" value="Thumbnail" name="image" class="btn btn-coffee btn-medium" >
+                    <input type="submit"  value="Description" name="ft" class="btn btn-coffee btn-medium" >
+                </div>              
+        </form>
+    </body>
+</html>
